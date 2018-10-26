@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  back: 
+    image: amarocoria/ol-back-item:latest
+    ports:
+      - '9090:9090'
+  front:
+    image: amarocoria/ol-demo-front:latest
+    ports:
+      - '80:80'
